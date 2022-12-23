@@ -76,13 +76,29 @@ a {
     font-weight: 900;
 }
 
-.footer {
+.footer-large {
     text-align: center;
     margin-top: 200px;
 }
 
+.footer {
+    text-align: center;
+    margin-top: 150px;
+}
+
 .hp h1 {
     font-style: italic;
+}
+
+.designs {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.title {
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-weight: 900px;
 }
 
 /* main css */
