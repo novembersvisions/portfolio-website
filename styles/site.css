@@ -81,6 +81,10 @@ a {
     margin-top: 200px;
 }
 
+.hp h1 {
+    font-style: italic;
+}
+
 /* main css */
 
 @media screen and (min-device-width: 800px) {
