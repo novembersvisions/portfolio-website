@@ -49,6 +49,38 @@ a {
     cursor: pointer;
   }
 
+.mobile-nav {
+    margin-top: -125px;
+    position: absolute;
+    z-index: 1;
+}
+
+.mobile-nav h1 {
+    margin-left: 20px;
+    font-size: 45px;
+    font-style: italic;
+}
+
+.bars {
+    margin-left: 820px;
+    margin-top: -100px;
+}
+
+.home {
+    text-align: center;
+}
+
+.home h1 {
+    margin-top: -20px;
+    letter-spacing: 15px;
+    font-weight: 900;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 200px;
+}
+
 /* main css */
 
 @media screen and (min-device-width: 800px) {
@@ -62,16 +94,12 @@ a {
     .home {
         margin-top: 200px;
     }
-      
-      .mobile-home {
-        display: none;
+
+    .home h1 {
+        font-size: 72px;
     }
       
-      .mobile-code {
-        display: none;
-    }
-      
-      .mobile-writing {
+    .mobile-home, .mobile-code, .mobile-writing {
         display: none;
     }
 
@@ -84,19 +112,7 @@ a {
         float: right;
     }
       
-    .mobile-nav {
-        display: none;
-    }
-      
-    .mobile-dropdown {
-        display: none;
-    }
-      
-    .mobile-dropbtn {
-        display: none;
-    }
-      
-    .mobile-dropdown-content {
+    .mobile-nav, .mobile-dropbtn {
         display: none;
     }
       
@@ -110,23 +126,21 @@ a {
 /* mobile css */
 @media screen and (max-device-width: 800px) {
 
-    .hp {
+    .hp, .code, .writing {
         display: none;
     }
+
     .home {
-        display: none;
-    }
-    
-    .mobile-home {
         margin-top: 400px;
+        margin-bottom: 600px;
+    }
+
+    .home h1 {
+        font-size: 90px;
     }
     
-    .code {
-        display: none;
-    }
-    
-    .writing {
-        display: none;
+    .home h2 {
+        font-size: 50px;
     }
 
     h2 {
@@ -145,6 +159,19 @@ a {
     p {
         line-height: 40px;
         font-size: 35px;
+    }
+
+    .mobile-dropdown {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .mobile-dropdown h3 {
+        margin-top: 140px;
+    }
+
+    .mobile-dropdown h3 a {
+        margin-bottom: 120px;
     }
 
     #mobile-dropbtn {
