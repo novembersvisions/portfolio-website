@@ -79,11 +79,13 @@ a {
 .footer-large {
     text-align: center;
     margin-top: 200px;
+    margin-bottom: 50px;
 }
 
 .footer {
     text-align: center;
     margin-top: 150px;
+    margin-bottom: 50px;
 }
 
 .hp h1 {
@@ -99,6 +101,47 @@ a {
     font-size: 50px;
     letter-spacing: 10px;
     font-weight: 900px;
+}
+
+.mobile-title {
+    font-size: 72px;
+    letter-spacing: 10px;
+    font-weight: 900px;
+}
+
+.pic1 {
+    display: inline-block;
+	vertical-align: top;
+}
+
+.pic2 {
+    display: inline-block;
+	vertical-align: top; 
+    margin-top: -290px; 
+    margin-left: -420px;
+}
+
+.pic3 {
+    display: inline-block;
+	vertical-align: top; 
+    margin-top: -290px; 
+    margin-top: -25px;
+}
+
+.pic4 {
+    margin-top: -25px;
+}
+
+.pic5 {
+    display: inline-block;
+	vertical-align: top;
+}
+
+.pic6 {
+    display: inline-block;
+	vertical-align: top; 
+    margin-top: -290px; 
+    margin-left: -390px;
 }
 
 /* main css */
@@ -119,7 +162,7 @@ a {
         font-size: 72px;
     }
       
-    .mobile-home, .mobile-code, .mobile-writing {
+    .mobile-home, .mobile-design, .mobile-writing {
         display: none;
     }
 
@@ -146,7 +189,16 @@ a {
 /* mobile css */
 @media screen and (max-device-width: 800px) {
 
-    .hp, .code, .writing {
+    .mobile-design {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .contain {
+        margin-right: -40px;
+    }
+
+    .hp, .code, .designs, .writing {
         display: none;
     }
 
