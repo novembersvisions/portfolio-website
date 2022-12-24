@@ -49,6 +49,16 @@ a {
     cursor: pointer;
   }
 
+.subtitle {
+    letter-spacing: 5px;
+    font-weight: 900px;
+    text-transform: uppercase;
+}
+
+.sub {
+    font-style: italic;
+}
+
 .mobile-nav {
     margin-top: -125px;
     position: absolute;
@@ -83,6 +93,12 @@ a {
 .footer-large {
     text-align: center;
     margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.footer-small {
+    text-align: center;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -156,6 +172,19 @@ a {
     margin-bottom: -2px;
 }
 
+.code ul li {
+    color: white;
+    text-align: left;
+    width: 400px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.code ul {
+    margin-bottom: 50px;
+}
+
 /* main css */
 
 @media screen and (min-device-width: 800px) {
@@ -205,7 +234,7 @@ a {
         text-align: center;
     }
 
-    .contain {
+    .contain, .code, .photos {
         margin-right: -40px;
     }
 
@@ -215,7 +244,7 @@ a {
 
     .home {
         margin-top: 400px;
-        margin-bottom: 600px;
+        margin-bottom: 400px;
     }
 
     .home h1 {
@@ -250,8 +279,13 @@ a {
         font-weight: 900px;
     }
 
-    .photos {
-        margin-right: -40px;
+    .code ul li {
+        width: 600px;
+        font-size: 25px;
+    }
+
+    .code ul {
+        margin-bottom: 80px;
     }
 
     .mobile-dropdown {
@@ -353,7 +387,7 @@ a {
         width: 0;
     }
       
-    .footer {
+    .footer, .footer-large, .footer-small {
         font-size: 9px;
-    }      
+    }
 }
