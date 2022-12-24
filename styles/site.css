@@ -56,18 +56,18 @@ a {
 }
 
 .mobile-nav h1 {
-    margin-left: 20px;
+    margin-left: 50px;
     font-size: 45px;
     font-style: italic;
 }
 
 .bars {
     margin-left: 820px;
-    margin-top: -100px;
+    margin-top: -105px;
 }
 
 .nav a {
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .home {
@@ -143,8 +143,17 @@ a {
     margin-left: -390px;
 }
 
-.code {
+.code, .photos {
     text-align: center;
+    margin-top: 0px;
+}
+
+.writing {
+    text-align: center;
+}
+
+.photos img {
+    margin-bottom: -2px;
 }
 
 /* main css */
@@ -165,7 +174,7 @@ a {
         font-size: 72px;
     }
       
-    .mobile-home, .mobile-design, .mobile-writing {
+    .mobile-design {
         display: none;
     }
 
@@ -173,9 +182,8 @@ a {
 
     .nav {
         margin-top: -100px;
-        margin-left: 600px;
+        margin-left: 700px;
         width: 50%;
-        float: right;
     }
       
     .mobile-nav, .mobile-dropbtn {
@@ -201,7 +209,7 @@ a {
         margin-right: -40px;
     }
 
-    .hp, .designs, .writing {
+    .hp, .designs  {
         display: none;
     }
 
@@ -240,6 +248,10 @@ a {
         font-size: 72px;
         letter-spacing: 10px;
         font-weight: 900px;
+    }
+
+    .photos {
+        margin-right: -40px;
     }
 
     .mobile-dropdown {
