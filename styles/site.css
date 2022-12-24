@@ -66,6 +66,10 @@ a {
     margin-top: -100px;
 }
 
+.nav a {
+    margin-right: 20px;
+}
+
 .home {
     text-align: center;
 }
@@ -90,6 +94,7 @@ a {
 
 .hp h1 {
     font-style: italic;
+    margin-left: 20px;
 }
 
 .designs {
@@ -99,12 +104,6 @@ a {
 
 .title {
     font-size: 50px;
-    letter-spacing: 10px;
-    font-weight: 900px;
-}
-
-.mobile-title {
-    font-size: 72px;
     letter-spacing: 10px;
     font-weight: 900px;
 }
@@ -144,6 +143,10 @@ a {
     margin-left: -390px;
 }
 
+.code {
+    text-align: center;
+}
+
 /* main css */
 
 @media screen and (min-device-width: 800px) {
@@ -169,7 +172,7 @@ a {
     /* nav menu */
 
     .nav {
-        margin-top: -80px;
+        margin-top: -100px;
         margin-left: 600px;
         width: 50%;
         float: right;
@@ -198,7 +201,7 @@ a {
         margin-right: -40px;
     }
 
-    .hp, .code, .designs, .writing {
+    .hp, .designs, .writing {
         display: none;
     }
 
@@ -231,6 +234,12 @@ a {
     p {
         line-height: 40px;
         font-size: 35px;
+    }
+
+    .title {
+        font-size: 72px;
+        letter-spacing: 10px;
+        font-weight: 900px;
     }
 
     .mobile-dropdown {
