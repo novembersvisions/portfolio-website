@@ -390,6 +390,18 @@ a {
         display: none;
         width: 0;
     }
+
+    .footer-large {
+        margin-top: 15%;
+    }
+    
+    .footer-small {
+        margin-top: 10%;
+    }
+    
+    .footer {
+        margin-top: 12%;
+    }    
       
     .footer, .footer-large, .footer-small {
         font-size: 9px;
