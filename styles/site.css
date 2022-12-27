@@ -229,6 +229,10 @@ a {
 /* mobile css */
 @media screen and (max-device-width: 800px) {
 
+    .header {
+        height: 100px;
+    }
+
     .mobile-design {
         margin-bottom: 20px;
         text-align: center;
