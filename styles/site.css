@@ -164,6 +164,11 @@ a {
     margin-top: 0px;
 }
 
+.code {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
 .writing {
     text-align: center;
 }
@@ -226,6 +231,7 @@ a {
     }
 }
 
+
 /* mobile css */
 @media screen and (max-device-width: 800px) {
 
@@ -238,8 +244,13 @@ a {
         text-align: center;
     }
 
-    .contain, .code, .photos {
+    .contain, .photos {
         margin-right: -40px;
+    }
+
+    .code {
+        margin-right: 15%;
+        margin-left: 20%;
     }
 
     .hp, .designs  {
@@ -260,20 +271,20 @@ a {
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     h3 {
-        font-size: 30px;
+        font-size: 35px;
         letter-spacing: 4px;
     }
 
     h4 {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     p {
-        line-height: 40px;
+        line-height: 45px;
         font-size: 35px;
     }
 
