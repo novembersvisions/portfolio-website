@@ -18,7 +18,7 @@ h1 {
     color: white;
     letter-spacing: 2px;
 }
-  
+
 h2 {
     color: white;
     font-style: italic;
@@ -35,7 +35,14 @@ h4 {
     font-weight: 400;
     letter-spacing: 1px;
     font-size: 20px;
-  }
+}
+
+h5 {
+    color: white;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
 
 p {
     color: white;
@@ -47,7 +54,7 @@ a {
     text-decoration: none;
     color: white;
     cursor: pointer;
-  }
+}
 
 .subtitle {
     letter-spacing: 5px;
@@ -126,20 +133,20 @@ a {
 
 .pic1 {
     display: inline-block;
-	vertical-align: top;
+    vertical-align: top;
 }
 
 .pic2 {
     display: inline-block;
-	vertical-align: top; 
-    margin-top: -290px; 
+    vertical-align: top;
+    margin-top: -290px;
     margin-left: -420px;
 }
 
 .pic3 {
     display: inline-block;
-	vertical-align: top; 
-    margin-top: -290px; 
+    vertical-align: top;
+    margin-top: -290px;
     margin-top: -25px;
 }
 
@@ -149,17 +156,18 @@ a {
 
 .pic5 {
     display: inline-block;
-	vertical-align: top;
+    vertical-align: top;
 }
 
 .pic6 {
     display: inline-block;
-	vertical-align: top; 
-    margin-top: -290px; 
+    vertical-align: top;
+    margin-top: -290px;
     margin-left: -390px;
 }
 
-.code, .photos {
+.code,
+.photos {
     text-align: center;
     margin-top: 0px;
 }
@@ -207,7 +215,7 @@ a {
     .home h1 {
         font-size: 72px;
     }
-      
+
     .mobile-design {
         display: none;
     }
@@ -219,11 +227,12 @@ a {
         margin-left: 50%;
         width: 50%;
     }
-      
-    .mobile-nav, .mobile-dropbtn {
+
+    .mobile-nav,
+    .mobile-dropbtn {
         display: none;
     }
-      
+
     .intro {
         width: 60%;
         margin-left: auto;
@@ -244,7 +253,8 @@ a {
         text-align: center;
     }
 
-    .contain, .photos {
+    .contain,
+    .photos {
         margin-right: -40px;
     }
 
@@ -253,7 +263,8 @@ a {
         margin-left: 20%;
     }
 
-    .hp, .designs  {
+    .hp,
+    .designs {
         display: none;
     }
 
@@ -265,7 +276,7 @@ a {
     .home h1 {
         font-size: 90px;
     }
-    
+
     .home h2 {
         font-size: 50px;
     }
@@ -280,6 +291,10 @@ a {
     }
 
     h4 {
+        font-size: 35px;
+    }
+
+    h5 {
         font-size: 35px;
     }
 
@@ -320,8 +335,8 @@ a {
         color: white;
         padding: 16px;
         font-size: 20px;
-      }
-      
+    }
+
     #mobile-dropdown {
         width: 100%;
         height: 100%;
@@ -330,27 +345,27 @@ a {
         color: white;
         overflow: hidden;
     }
-      
+
     #mobile-dropdown a {
         color: white;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
     }
-      
+
     #mobile-dropdown {
         display: none;
         transition: display .5s ease-out;
     }
-      
-      /* Menu Icon */
+
+    /* Menu Icon */
 
     .hamb {
         cursor: pointer;
         float: right;
         padding: 40px 20px;
     }
-      
+
     .hamb-line {
         background: white;
         display: block;
@@ -358,8 +373,9 @@ a {
         position: relative;
         width: 48px;
     }
-      
-    .hamb-line::before,.hamb-line::after {
+
+    .hamb-line::before,
+    .hamb-line::after {
         background: white;
         content: '';
         display: block;
@@ -376,27 +392,27 @@ a {
     .hamb-line::after {
         top: -15px;
     }
-      
+
     .side-menu {
         display: none;
     }
-      
-      /* Toggle menu icon */
-      
-    .side-menu:checked ~ .hamb .hamb-line {
+
+    /* Toggle menu icon */
+
+    .side-menu:checked~.hamb .hamb-line {
         background: transparent;
     }
-      
-    .side-menu:checked ~ .hamb .hamb-line::before {
+
+    .side-menu:checked~.hamb .hamb-line::before {
         transform: rotate(-45deg);
         top: 0;
     }
-      
-    .side-menu:checked ~ .hamb .hamb-line::after {
+
+    .side-menu:checked~.hamb .hamb-line::after {
         transform: rotate(45deg);
-        top:0;
+        top: 0;
     }
-      
+
     .nav {
         display: none;
         width: 0;
@@ -405,16 +421,18 @@ a {
     .footer-large {
         margin-top: 15%;
     }
-    
+
     .footer-small {
         margin-top: 10%;
     }
-    
+
     .footer {
         margin-top: 12%;
-    }    
-      
-    .footer, .footer-large, .footer-small {
+    }
+
+    .footer,
+    .footer-large,
+    .footer-small {
         font-size: 9px;
     }
 }
